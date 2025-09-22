@@ -1,0 +1,27 @@
+# Archivos de configuración sensibles
+config.json
+financial_data.json
+
+# Entorno virtual
+venv/
+env/
+.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales que no queremos en el repo
+app_fixed.py
+comandos_github.txt
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Solo queremos: app.py, README.md, requirement.txt
